@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="password-generator">
+            <h1>Generate a <span class="cta">random password</span></h1>
+            <p>Never use an insecure password again</p>
+            <button class="pass-btn">Generate Password</button>
+            <div class="breaker"></div>
+            <div class="result-boxes">
+            <div class="pass-1 pass"></div>
+            <div class="pass-2 pass"></div>
+            </div>
+             <p class="copy">copied to clipboard</p>
+             <div class="customize">
+                <h3>Customize your password</h3>
+                <div class="characters">
+                    <input type="radio" name="custom" id="chars">
+                    <label for="chars">Characters</label>
+                </div>
+                <div class="numbers">
+                    <input type="radio" name="custom" id="num">
+                    <label for="num">Numbers</label>
+                </div>
+                <div class="both">
+                    <input type="radio" name="custom" id="both">
+                    <label for="both">Both</label>
+             </div>
+             </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
